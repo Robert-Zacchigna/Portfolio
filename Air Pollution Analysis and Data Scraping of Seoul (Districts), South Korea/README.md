@@ -28,7 +28,8 @@ You will need to set up a Jupyter environment in order to run the notebooks:
 
 ### Air Quality API
 
-The [3rd jupyter notebook](https://github.com/Robert-Zacchigna/DSC-680_Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea) has an Air Quality API requirement from: https://aqicn.org/json-api/doc/
+The [3rd jupyter notebook](https://github.com/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea/Part%203%20-%20Parse%20and%20Reformat%20South%20Korean%20Air%20Pollution%20Data%20(API).ipynb) 
+has an Air Quality API requirement from: https://aqicn.org/json-api/doc/
 
 You must create an API token and follow the steps in the notebook in order to properly use the API
 
