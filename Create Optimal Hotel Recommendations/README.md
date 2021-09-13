@@ -3,6 +3,10 @@
 <p align="center">Create optimal hotel recommendations for Expedia's users that are searching for a hotel to book, specifically predict which "hotel cluster" the user is likely to book, given his (or her) search details.</p>
 
 
+## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
+* [Create Optimal Hotel Recommendations.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/Create%20Optimal%20Hotel%20Recommendations.ipynb)
+
+
 ## How to Use
 
 ### 1. Extract Dataset

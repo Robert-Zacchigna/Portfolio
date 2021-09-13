@@ -4,6 +4,10 @@
 exploring multiple different prediction model types to find the best one possible</p>
 
 
+## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
+* [Predicting Video Game Sales.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Predicting%20Video%20Game%20Sales/Predicting%20Video%20Game%20Sales.ipynb)
+
+
 ## How to Use
 
 ### 1. Extract Dataset

@@ -4,6 +4,10 @@
 Enrollment, Faculty, etc...) can predict a university's student graduation rate.</p>
 
 
+## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
+* [Predict Graduation Rates (2019 U.S. College Data).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Predict%20Graduation%20Rates%20%282019%20College%20Data%29/Predict%20Graduation%20Rates%20%282019%20U.S.%20College%20Data%29.ipynb)
+
+
 ## How to Use
 
 The dataset and all dependencies are included in this folder, just run each cell of the notebook to conduct analysis.

@@ -3,6 +3,10 @@
 <p align="center">Create several different types of Neural Network Classifiers on reddit comment data and analyze the results</p>
 
 
+## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
+* [Neural Network Classifiers (Scikit and Keras).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Neural%20Network%20Classifiers%20%28Scikit%20and%20Keras%29/Neural%20Network%20Classifiers%20%28Scikit%20and%20Keras%29.ipynb)
+
+
 ## How to Use
 
 ### 1. Extract Dataset
