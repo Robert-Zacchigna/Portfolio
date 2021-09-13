@@ -1,7 +1,7 @@
-# Repo Project List and Descriptions
+# Repo Project List
 
 > <ins>**NOTES**</ins>
-> * GitHub might not render Jupyter Notebooks correctly and thus internal linking and graphs might not work as desired
+> * GitHub might not render Jupyter Notebooks correctly (or at all) and thus internal linking and graphs might not work as desired
 >   * You can click the [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer) link listed in the README files to view the properly rendered Jupyter Notebook
 > 
 > 
@@ -11,8 +11,8 @@
 
 1. [<ins>Air Pollution Analysis and Data Scraping of Seoul (Districts), South Korea</ins>](https://github.com/Robert-Zacchigna/DSC-680_Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea)
    * This is a 4 part Jupyter notebook that scrapes Seoul, South Korean Air Pollution data and then parses/reformat it 
-   into a more usable format. The different data sources that the data is retrieved from is then all condensed into one 
-   large dataset and some preliminary EDA is conducted on the data to show the overall makeup of the data points.
+   into a more usable format. The different data sources are then all condensed into one large dataset using sqlite3 to 
+   create a tiny database to query the data from and create visualizations.
    * [GitHub README](https://github.com/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea/README.md)
    
 
