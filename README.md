@@ -5,9 +5,10 @@
 >   * You can click the [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer) link listed in the README files to 
 > view the properly rendered Jupyter Notebook, *however*, you will **not** be able to run cells in the notebook
 >   * If you want to be able to interact with and run cells in the notebooks stored in this repo without setting up your 
-> own Jupyter environment, you can instead click the "Launch Binder" button in this READMEs header to launch a JupyterHub of this repo fully in your browser.
+> own Jupyter environment, you can instead click the "**Launch Binder**" button in the README header to launch a JupyterHub of this repo fully in your browser.
 >     * [About mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html)
 >     * [What is BinderHub?](https://github.com/jupyterhub/binderhub#binderhub)
+>     * [What is JupyterHub?](https://jupyter.org/hub)
 > 
 > 
 > * Some files might be too big to be stored in GitHub directly and are thus stored using [Git Large File Storage](https://git-lfs.github.com/).
