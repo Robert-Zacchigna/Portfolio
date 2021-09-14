@@ -1,13 +1,18 @@
-# Repo Project List
+# Repo Project List [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Robert-Zacchigna/DSC-680_Portfolio/HEAD "Launch Binder of GitHub Repo")
 
 > <ins>**NOTES**</ins>
-> * GitHub might not render Jupyter Notebooks correctly (or at all) and thus internal linking and graphs might not work as desired
->   * You can click the [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer) link listed in the README files to view the properly rendered Jupyter Notebook
+> * GitHub might not render Jupyter Notebooks correctly (or at all), thus internal linking and graphs might not work as desired
+>   * You can click the [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer) link listed in the README files to 
+> view the properly rendered Jupyter Notebook, *however*, you will **not** be able to run cells in the notebook
+>   * If you want to be able to interact with and run cells in the notebooks stored in this repo without setting up your 
+> own Jupyter environment, you can instead click the "Launch Binder" button in this READMEs header to launch a JupyterHub of this repo fully in your browser.
+>     * [About mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html)
+>     * [What is BinderHub?](https://github.com/jupyterhub/binderhub#binderhub)
 > 
 > 
-> * Some files might be too big to be stored in GitHub directly and are thus stored using 
-> [Git Large File Storage](https://git-lfs.github.com/).
+> * Some files might be too big to be stored in GitHub directly and are thus stored using [Git Large File Storage](https://git-lfs.github.com/).
 >   * In the repo these files are represented as text based pointer files but when this repo is cloned, those pointer files will download the correct file they represent.
+
 
 1. [<ins>Air Pollution Analysis and Data Scraping of Seoul (Districts), South Korea</ins>](https://github.com/Robert-Zacchigna/DSC-680_Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea)
    * This is a 4 part Jupyter notebook that scrapes Seoul, South Korean Air Pollution data and then parses/reformat it 
