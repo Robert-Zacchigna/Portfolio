@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+remote_theme:     Robert-Zacchigna/BlackDoc
+
+# Setup
+title:            Robert Zacchigna's Project Portfolio
+tagline:          Hire Me
+description:      "This site showcases the various data science projects I have worked on (ranging from data analysis and exploration to machine learning and prediction models) all neatly organized in Jupyter Notebooks."
+url:              https://github.com/Robert-Zacchigna/BlackDoc
+baseurl:          "/"
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
+
+author:
+  name:           Robert Zacchigna
+  url:            https://twitter.com/karloespiritu
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            2.0.1
+
+github:
+  repo:             https://github.com/Robert-Zacchigna/BlackDoc
+

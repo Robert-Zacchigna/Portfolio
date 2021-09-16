@@ -1,0 +1,37 @@
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-config" content="{{ "/assets/favicons/browserconfig.xml" | prepend: site.baseurl }}">
+  
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/poole.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/blackdoc.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+  
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicons/favicon-32x32.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicons/favicon-16x16.png" | prepend: site.baseurl }}">
+  <link rel="manifest" href="{{ "/assets/favicons/site.webmanifest" | prepend: site.baseurl }}">
+  <link rel="mask-icon" href="{{ "/assets/favicons/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5">
+  <link rel="shortcut icon" href="{{ "/assets/favicons/favicon.ico" | prepend: site.baseurl }}">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
