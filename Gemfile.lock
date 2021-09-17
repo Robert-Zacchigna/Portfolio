@@ -97,6 +97,11 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.1)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
     wdm (0.1.1)
     webrick (1.7.0)
 
@@ -108,6 +113,8 @@ DEPENDENCIES
   bundler (~> 1.12)
   jekyll-theme-blackdoc!
   kramdown-parser-gfm
+  tzinfo (= 1.2.1)
+  tzinfo-data
   wdm (>= 0.1.0)
   webrick
 

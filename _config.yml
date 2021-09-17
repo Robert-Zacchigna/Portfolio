@@ -12,9 +12,11 @@ baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
+timezone: America/Chicago
+
 author:
   name:           Robert Zacchigna
-  url:            https://twitter.com/karloespiritu
+  url:            https://github.com/Robert-Zacchigna/
 
 paginate:         5
 # paginate_path:    '/page:num'
