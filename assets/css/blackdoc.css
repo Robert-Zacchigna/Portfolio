@@ -272,21 +272,6 @@ a.sidebar-nav-item:focus {
   }
 }
 
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-
-    padding-left: 1rem;
-    font-size: 40px;
-
-    background-color: #3c3c3c;
-}
-
-.nav-item {
-    margin-right: auto;
-    padding-right: 20px;
-}
-
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
