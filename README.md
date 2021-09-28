@@ -1,6 +1,6 @@
 # Repo Project List [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Robert-Zacchigna/DSC-680_Portfolio/HEAD "Launch Binder of GitHub Repo") 
 
-View Site Here: [Project Portfolio](https://robert-zacchigna.github.io/DSC-680_Portfolio/)
+View Site Here: [Project Portfolio](https://robert-zacchigna.github.io/Portfolio/)
 
 > <ins>**NOTES**</ins>
 > * GitHub might not render Jupyter Notebooks correctly (or at all), thus internal linking and graphs might not work as desired
