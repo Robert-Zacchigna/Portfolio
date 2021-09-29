@@ -1,25 +1,18 @@
-<style>
-    .nav {
-        display: flex;
-        flex-wrap: wrap;
-
-        padding-left: 1rem;
-        font-size: 40px;
-
-        background-color: #3c3c3c;
-    }
-
-    .nav-item {
-        margin-right: auto;
-        padding-right: 20px;
-}
-</style>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).parents('div').addClass('active');
+            }
+        });
+    });
+</script>
 
 <!-- Nav Bar Start -->
 <header style="position: -webkit-sticky; position: sticky; top: 0px;">
     <div class="content post-title" style="padding-top: 0px; padding-bottom: 0px;">
-        <!-- header Nav Start -->
-        <div class="nav nav-resize">
+        <nav class="nav">
             <div class="nav-item nav-resize">
                 <a href="{{ site.baseurl }}">Home</a>
             </div>
@@ -27,15 +20,21 @@
                 <a href="{{ site.baseurl | append: '/'}}about">About</a>
             </div>
             <div class="nav-item nav-resize">
-                <a href="{{ site.github.repo }}" target="_blank">GitHub-Repo</a>
+                <a href="{{ site.baseurl | append: '/'}}contact">Contact</a>
+            </div>
+            <div class="nav-item nav-resize">
+                <a href="{{ site.author.url }}" target="_blank">GitHub</a>
             </div>
             <div class="nav-item nav-resize">
                 <a href="https://www.linkedin.com/in/robert-zacchigna" target="_blank">LinkedIn</a>
             </div>
             <div class="nav-item nav-resize">
-                <a href="{{ site.baseurl | append: '/'}}contact">Contact</a>
+                <a href="{{ site.baseurl | append: '/'}}assets/Resume - GitHub.pdf" target="_blank">Resume</a>
             </div>
-        </div>
+            <div class="nav-item nav-resize">
+                <a href="{{ site.baseurl }}atom.xml" target="_blank">RSS</a>
+            </div>
+        </nav>
     </div>
 </header>
 <!-- Nav Bar close -->

@@ -6,13 +6,13 @@ remote_theme:     Robert-Zacchigna/BlackDoc
 # Setup
 title:            Robert Zacchigna's Project Portfolio
 tagline:          Hire Me
-description:      "This site showcases the various data science projects I have worked on (ranging from data analysis and exploration to machine learning and prediction models) all neatly organized in Jupyter Notebooks."
-url:              https://github.com/Robert-Zacchigna/BlackDoc
+description:      "Below is a list of projects I have worked on."
+url:              https://github.com/Robert-Zacchigna/Portfolio
 baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
-timezone: America/Chicago
+timezone:         America/Chicago
 
 author:
   name:           Robert Zacchigna
@@ -27,9 +27,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
-# Custom vars
-version:            2.0.1
 
 github:
-  repo:             https://github.com/Robert-Zacchigna/BlackDoc
+  repo:             https://github.com/Robert-Zacchigna/Portfolio
 

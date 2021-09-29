@@ -32,6 +32,10 @@ html {
 }
 
 body {
+  max-width: 96em;
+  margin: 0 auto !important;
+  float: none !important;
+
   color: #848482;
   background-color: #000000;
 }
@@ -140,6 +144,7 @@ tbody tr:nth-child(odd) th {
     font-size: 16px;
   }
 }
+
 @media (min-width: 58em) {
   html {
     font-size: 20px;
@@ -207,12 +212,12 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #caad00;
+  color: #dedede   ;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #caad00;
+  color: #dedede;
   margin-top: 0;
   font-family: 'Noto Serif', serif;
   font-size: 2.25rem;
@@ -242,7 +247,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    /*    position: absolute;*/
+    /* position: absolute;*/
     right: 1rem;
     bottom: 1rem;
     left: 1rem;
@@ -253,6 +258,25 @@ a.sidebar-nav-item:focus {
  *
  * Navigation Bar for the top of the page
  */
+
+nav .active {
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+
+    background-color: #3c3c3c;
+}
+
+.nav-item {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
 
 @media (min-width: 25em) {
   .nav-resize {
@@ -309,7 +333,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #caad00;
+  color: #dedede;
 }
 
 /*
