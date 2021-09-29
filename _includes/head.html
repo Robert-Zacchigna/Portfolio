@@ -44,6 +44,10 @@
               if ($(this).prop('href') == window.location.href) {
                   $(this).parent('div').addClass('active');
               }
+
+              if ($(this).prop('href') == window.location.origin + "/Portfolio/") {
+                  $(this).parent('div').addClass('active');
+              }
           });
       });
   </script>
