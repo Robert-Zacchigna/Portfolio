@@ -41,14 +41,14 @@
   <script>
       $(function(){
           $('a').each(function(){
-              var win_loc = window.location.href;
+              var win_href = window.location.href;
 
-              if ($(this).prop('href') == win_loc) {
+              if ($(this).prop('href') == win_href) {
                   $(this).parent('div').addClass('active');
-              }
-
-              if ($(this).prop('href') == window.location.origin + "/" + win_loc.split('/')[3]) {
+              } else if ($(this).prop('href') == win_href.slice(0, -1)) {
                   $(this).parent('div').addClass('active');
+              } else {
+                  $(this).parent('div').removeClass('active');
               }
           });
       });
