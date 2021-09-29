@@ -5,7 +5,8 @@ form-site: https://app.getform.io/forms/31994
 ---
 
 <head>
-  <link rel="stylesheet" href="/assets/css/contact-form.css">
+  {{ "/assets/css/contact-form.css" | prepend: site.baseurl }}
+  <link rel="stylesheet" href="{{ "/assets/css/contact-form.css" | prepend: site.baseurl }}">
 </head>
 
 <div>
