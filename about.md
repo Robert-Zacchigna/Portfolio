@@ -5,7 +5,7 @@ title: About
 
 <div>
     <p style="float: left; padding-right: 25px; margin-bottom: 0;"><img style="margin: 0 0 0;" src="https://media-exp1.licdn.com/dms/image/C5603AQGiPbW--kv6Ug/profile-displayphoto-shrink_800_800/0/1569778612501?e=1638403200&v=beta&t=s4bzzaWBJRnagd8Fq6Jep8uJM7uHnOTFo33Dfbijy0Y" height="300" width="300" title="Robert Zacchigna"></p>
-    <h2><a style="color: #aaa;" target="_blank" href="https://c.tenor.com/DSG9ZID25nsAAAAC/hello-there-general-kenobi.gif">Hello There!</a></h2>
+    <h2><a id="hello-there" style="color: #aaa;" target="_blank" href="https://c.tenor.com/DSG9ZID25nsAAAAC/hello-there-general-kenobi.gif">Hello There!</a></h2>
 </div>
 
 My name is [Robert Zacchigna](https://www.linkedin.com/in/robert-zacchigna){:target="_blank"} and welcome to my little corner 
@@ -14,7 +14,7 @@ of the web containing my various data science'y projects that I have worked or i
 On the left-hand side of the page you will see a sidebar that lists all the projects I have worked on and published. Feel 
 free to browse around and take a look, there is quite the variety of content to view.
 
-## A Little About Me
+## A Little About Me (<a style="color: #ffeb99;" onMouseOver="this.style.color='#caad00'" onMouseOut="this.style.color='#ffeb99'" target="_blank" href="{{ site.baseurl | append: '/' }}assets/Resume - GitHub.pdf">Resume</a>)
 
 I graduated from [Illinois State University](https://illinoisstate.edu/ "Go Redbirds!"){:target="_blank"} in 2019 and not long after started working as a Data Engineer at my current employer: 
 [Discover Financial Services](https://www.discover.com/company/){:target="_blank"} (going on almost 2.5 years of service).

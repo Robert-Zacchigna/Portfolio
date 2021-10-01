@@ -39,18 +39,22 @@
   <!-- Scripts -->
   <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
-      $(function(){
-          $('a').each(function(){
-              var win_href = window.location.href;
+    $(window).bind('load resize', function(event) {
+        document.styleSheets[2].cssRules[0].style.setProperty("--nav-height", document.getElementById("nav-head").offsetHeight + 'px');
+    });
 
-              if ($(this).prop('href') == win_href) {
-                  $(this).parent('div').addClass('active');
-              } else if ($(this).prop('href') == win_href.slice(0, -1)) {
-                  $(this).parent('div').addClass('active');
-              } else {
-                  $(this).parent('div').removeClass('active');
-              }
-          });
-      });
+    $(function(){
+        $('a').each(function(){
+            var win_href = window.location.href;
+
+            if ($(this).prop('href') == win_href) {
+                $(this).parent('div').addClass('active');
+            } else if ($(this).prop('href') == win_href.slice(0, -1)) {
+                $(this).parent('div').addClass('active');
+            } else {
+                $(this).parent('div').removeClass('active');
+            }
+        });
+    });
   </script>
 </head>

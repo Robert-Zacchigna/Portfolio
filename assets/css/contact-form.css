@@ -47,32 +47,53 @@
 @media (min-width: 25em) {
     #fs-frm [type="button"],
     #fs-frm [type="submit"],
-    #fs-frm [type="reset"] {
+    #fs-frm [type="reset"],
+    #fs-frm [type="text"],
+    #fs-frm [type="email"] {
     width: 100%;
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 55em) {
     #fs-frm [type="button"],
     #fs-frm [type="submit"],
-    #fs-frm [type="reset"] {
+    #fs-frm [type="reset"],
+    #fs-frm [type="text"],
+    #fs-frm [type="email"],
+    #fs-frm [type="file"] {
     width: 100%;
   }
 }
 
-@media (min-width: 80em) {
+@media (min-width: 78em) {
     #fs-frm [type="button"],
     #fs-frm [type="submit"],
-    #fs-frm [type="reset"] {
+    #fs-frm [type="reset"]{
     width: 50%;
   }
 }
 
-@media (min-width: 90em) {
+@media (min-width: 78em) {
+    #fs-frm [type="text"],
+    #fs-frm [type="email"],
+    #fs-frm [type="file"] {
+    width: 75%;
+  }
+}
+
+@media (min-width: 92em) {
     #fs-frm [type="button"],
     #fs-frm [type="submit"],
     #fs-frm [type="reset"] {
     width: 25%;
+  }
+}
+
+@media (min-width: 92em) {
+    #fs-frm [type="text"],
+    #fs-frm [type="email"],
+    #fs-frm [type="file"] {
+    width: 50%;
   }
 }
 

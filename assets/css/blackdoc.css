@@ -7,7 +7,8 @@ ______ _            _   ______
 \____/|_|\__,_|\___|_|\_\___/ \___/ \___|
 
  *
- * Designed, built, and released under MIT license by @karloespiritu.
+ * Designed, built, and released under the MIT license by @karloespiritu
+ * (with modifications from Robert-Zacchigna).
  */
 
 /*
@@ -15,6 +16,7 @@ ______ _            _   ______
  *
  * Global resets
  * Sidebar
+ * Navbar
  * Container
  * Reverse layout
  * Themes
@@ -29,6 +31,8 @@ ______ _            _   ______
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  scroll-padding-top: calc(var(--nav-height) + 2px);
+  overflow: scroll;
 }
 
 body {
@@ -266,8 +270,6 @@ nav .active {
 .nav {
     display: flex;
     flex-wrap: wrap;
-    font-size: 40px;
-
     background-color: #3c3c3c;
 }
 
