@@ -2,14 +2,16 @@
   <form id="fs-frm" accept-charset="utf-8" action="https://getform.io/f/80c7ecde-4257-4dde-97d9-ff901b45a513" enctype="multipart/form-data" method="post">
     <fieldset>
       <label for="full-name">Full Name</label>
-      <input type="text" name="name" id="full-name" maxlength="50" placeholder="First and Last" required="">
+      <input type="text" name="name" id="full-name" maxlength="50" placeholder="Firstname Lastname" required>
 
       <label for="email-address">Email Address</label>
-      <input type="email" name="_replyto" id="email-address" maxlength="50" placeholder="email@domain.com" required="">
+      <input type="email" name="_replyto" id="email-address" maxlength="50" placeholder="email@domain.com" required>
 
-      <label for="message">Message (Limit 2,000 Words)</label>
-      <textarea name="contact-message" id="message" maxlength="2000" rows="10" cols="45" placeholder="Your Text Here..." required="required"></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      <label for="email-subject">Subject</label>
+      <input type="text" name="_subject" id="email-subject" maxlength="50" placeholder="What is the email about?" required>
+
+      <label for="message">Message (Limit 2,000 Characters)</label>
+      <textarea name="contact-message" id="message" maxlength="2000" rows="10" placeholder="Your Text Here..." required></textarea>
 
       <label>Upload File (Optional, Max Size: 25 MB)</label>
       <input type="file" name="attachment">
