@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <title>
-      {% if page.title == "Home" %}
-        {{ site.title }} &middot; {{ site.tagline }}
-      {% else %}
-        {{ page.title }} &middot; {{ site.title }}
-      {% endif %}
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
     </title>
 
     <!-- CSS -->
@@ -39,14 +39,4 @@
     <!-- Scripts -->
     <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl }} "></script>
-    <script>
-      <!-- Nav Bar Page Highlighting -->
-      $(function(){
-        $('a').each(function(){
-            if ($(this).prop('href') == window.location.href) {
-                $(this).parent('div').addClass('active');
-            }
-        });
-      });
-      </script>
 </head>
