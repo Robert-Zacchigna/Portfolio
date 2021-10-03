@@ -32,6 +32,7 @@ ______ _            _   ______
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   scroll-padding-top: calc(var(--nav-height) + 2px);
+  overflow-x: hidden;
   overflow: scroll;
 }
 

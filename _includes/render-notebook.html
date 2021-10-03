@@ -1,0 +1,22 @@
+<div style="padding-bottom: 0.5em;">
+    <h2 id="view-jupyter-notebook{{ part | downcase }}">View Jupyter Notebook {{ part | remove_first: "-" }}</h2>
+
+    Click the "Display Notebook" button to render the notebook in the current browser window or click the link to open in a new tab:
+</div>
+<div class="render-notebook">
+    <div>
+        <ul>
+            <li>
+                <a target="_blank" href="{{ notebook_url }}">Display Notebook in New Window</a>
+            </li>
+            <li>
+                <input id="{{ button_id }}" type="submit" value="Display Notebook">
+            </li>
+        </ul>
+    </div>
+    <div id="{{ frame_id }}" style="display: none;">
+        <p></p>
+        <h3 id="notebook{{ part | downcase }}">Notebook {{ part | remove_first: "-" }}</h3>
+        <iframe src="{{ notebook_url }}"></iframe>
+    </div>
+</div>
