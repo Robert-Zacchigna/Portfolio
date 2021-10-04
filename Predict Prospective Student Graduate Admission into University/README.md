@@ -6,7 +6,7 @@ different prediction model types to find the best one possible</p>
 
 
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
-* [Predict Prospective Student Graduate Admission into University.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University.ipynb)
+* [Predict Prospective Student Graduate Admission into University.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University.ipynb)
 
 
 ## How to Use

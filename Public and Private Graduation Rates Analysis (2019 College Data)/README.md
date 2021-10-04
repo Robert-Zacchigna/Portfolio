@@ -6,7 +6,7 @@ effect on its graduation rate and what factors specifically affect those rates.<
 
 
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
-* [Public and Private Graduation Rates Analysis (2019 U.S. College Data).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20%282019%20College%20Data%29/Public%20and%20Private%20Graduation%20Rates%20Analysis%20%282019%20U.S.%20College%20Data%29.ipynb)
+* [Public and Private Graduation Rates Analysis (2019 U.S. College Data).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20%282019%20College%20Data%29/Public%20and%20Private%20Graduation%20Rates%20Analysis%20%282019%20U.S.%20College%20Data%29.ipynb)
 
 
 ## How to Use

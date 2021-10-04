@@ -1,11 +1,11 @@
 <h1 align="center">Video Game Sales Prediction</h1>
 
-<p align="center">This projects attempts to predict video games sales, along with 
+<p align="center">This project attempts to predict video games sales, along with 
 exploring multiple different prediction model types to find the best one possible</p>
 
 
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
-* [Predicting Video Game Sales.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Predicting%20Video%20Game%20Sales/Predicting%20Video%20Game%20Sales.ipynb)
+* [Predicting Video Game Sales.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Video%20Game%20Sales/Predicting%20Video%20Game%20Sales.ipynb)
 
 
 ## How to Use

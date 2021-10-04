@@ -4,14 +4,21 @@
 
 
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
-* [Create Optimal Hotel Recommendations.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/DSC-680_Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/Create%20Optimal%20Hotel%20Recommendations.ipynb)
-
+* [Create Optimal Hotel Recommendations.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/Create%20Optimal%20Hotel%20Recommendations.ipynb)
+  > This notebook is quite large and might take a minute or two to fully load
 
 ## How to Use
 
-### 1. Extract Dataset
+### 1. Download and Extract Dataset
 
-First go into the Report_Data folder and extract the dataset from the zip file inside.
+Download Dataset: https://www.kaggle.com/c/expedia-hotel-recommendations/data
+> The dataset for this project was too big to be stored on GitHub, thus you will need to download it yourself.
+
+Scroll all the way to the bottom of the page and click the "Download All" button on the left-hand side of the 
+data display in the middle of the page.
+
+Extract and move the dataset files into the "Expedia_Hotel_Data" folder.
+
 
 ### 2. Run Notebook Cells
 
