@@ -11,10 +11,6 @@ View Site Here: [Project Portfolio](https://robert-zacchigna.github.io/Portfolio
 >     * [About mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html)
 >     * [What is BinderHub?](https://github.com/jupyterhub/binderhub#binderhub)
 >     * [What is JupyterHub?](https://jupyter.org/hub)
-> 
-> 
-> * Some files might be too big to be stored in GitHub directly and are thus stored using [Git Large File Storage](https://git-lfs.github.com/).
->   * In the repo these files are represented as text based pointer files but when this repo is cloned, those pointer files will download the correct file they represent.
 
 
 1. [<ins>Air Pollution Analysis and Data Scraping of Seoul (Districts), South Korea</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea)
