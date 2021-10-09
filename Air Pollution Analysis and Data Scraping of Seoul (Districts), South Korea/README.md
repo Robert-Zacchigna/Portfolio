@@ -19,8 +19,8 @@ First go into the Air_Data folder and extract the dataset from the zip file insi
 
 ### 2. Follow Notebook Order
 This project contains a series of 4 Jupyter notebooks that can be run individually in the 
-order specified to reproduce their cell results. You will need to use a Jupyter environment 
-in order to open and run these notebooks (either JupyterLab or Jupyter-Notebook).
+order specified to reproduce their cell results. The dataset and all dependencies are 
+included in this folder, trust the notebook and then run each cell (in order) in the notebook to conduct the analysis.
 
 
 ## Requirements

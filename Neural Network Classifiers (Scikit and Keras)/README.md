@@ -15,8 +15,8 @@ First go into the Comment_Data folder and extract the dataset from the zip file 
 
 ### 2. Run Notebook Cells
 
-The dataset and all dependencies are included in this folder, 
-just run each cell (in order) in the notebook to conduct the analysis.
+The dataset and all dependencies are included in this folder, trust the notebook 
+and then run each cell (in order) in the notebook to conduct the analysis.
 
 
 ## Requirements

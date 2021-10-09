@@ -22,8 +22,8 @@ Extract and move the dataset files into the "Expedia_Hotel_Data" folder.
 
 ### 2. Run Notebook Cells
 
-The dataset and all dependencies are included in this folder, 
-just run each cell (in order) in the notebook to conduct the analysis.
+The dataset and all dependencies are included in this folder, trust the notebook 
+and then run each cell (in order) in the notebook to conduct the analysis.
 
 
 ## Requirements

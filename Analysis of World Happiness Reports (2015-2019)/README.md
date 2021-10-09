@@ -5,7 +5,7 @@
 
 
 ## View Notebooks (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
-* []()
+* [Analysis of World Happiness Reports (2015-2019).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Analysis%20of%20World%20Happiness%20Reports%20%282015-2019%29/Analysis%20of%20World%20Happiness%20Reports%20%282015-2019%29.ipynb)
 
 
 ## How to Use
@@ -16,11 +16,19 @@ First go into the Report_Data folder and extract the dataset from the zip file i
 
 ### 2. Run Notebook Cells
 
-The dataset and all dependencies are included in this folder, 
-just run each cell (in order) in the notebook to conduct the analysis.
+The dataset and all dependencies are included in this folder, trust the notebook 
+and then run each cell (in order) in the notebook to conduct the analysis.
 
 
 ## Requirements
+
+### Basemap
+
+This notebook uses an older python package (`mpl_toolkits.basemap`) that is no longer being served via pip and thus 
+needs to be installed manually.
+
+* [About Basemap](https://matplotlib.org/basemap/users/intro.html)
+* [Basemap Install](https://matplotlib.org/basemap/users/installing.html)
 
 ### Jupyter Environment
 

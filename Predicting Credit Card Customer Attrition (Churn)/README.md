@@ -10,8 +10,8 @@ credit card and if it's possible to prevent it.</p>
 
 ## How to Use
 
-The dataset and all dependencies are included in this folder, just run each cell of the notebook to conduct analysis.
-
+The dataset and all dependencies are included in this folder, trust the notebook 
+and then run each cell (in order) in the notebook to conduct the analysis.
 
 ## Requirements
 
