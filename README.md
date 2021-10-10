@@ -8,32 +8,39 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
 > While not necessary to run the notebooks, I thought I would add the list of notebook extensions I have enabled 
 > as I find them quite useful, and you might find them useful as well.
 
-<div>
-   <ul style="display: inline-block;">
-      <li>Code Prettify</li>
-      <li>Help Panel</li>
-      <li>Notify</li>
-      <li>Tree Filter</li>
-      <li>ExecuteTime</li>
-      <li>Export Embedded HTML</li>
-   </ul>
-   <ul style="display: inline-block;">
-      <li>jupyter-js-widgets/extension</li>
-      <li>Nbextensions dashboard tab</li>
-      <li>plotlywidget/extension</li>
-      <li>Table of Contents (2)</li>
-      <li>Variable Inspector</li>
-      <li style="list-style-type: none;">​</li>
-   </ul>
-   <ul style="display: inline-block;">
-      <li>AddBefore</li>
-      <li>contrib_nbextensions_help_item</li>
-      <li>Nbextensions edit menu item</li>
-      <li>spellchecker</li>
-      <li>Toggle All Line Numbers</li>
-      <li style="list-style-type: none;">​</li>
-   </ul>
-</div>
+<table>
+    <tbody>
+         <tr>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_code_prettify.html">Code Prettify</a></td>
+            <td>jupyter-js-widgets/extension</td>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/addbefore/readme.html">AddBefore</a></td>
+         </tr>
+         <tr>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/help_panel/readme.html">Help Panel</a></td>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html#enabling-disabling-extensions">Nbextensions dashboard tab</a></td>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/contrib_nbextensions_help_item/README.html">contrib_nbextensions_help_item</a></td>
+         </tr>
+         <tr>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/notify/readme.html">Notify</a></td>
+            <td>plotlywidget/extension</td>
+            <td>Nbextensions edit menu item</td>
+         </tr>
+         <tr>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/tree-filter/readme.html">Tree Filter</a></td>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html">Table of Contents (2)</a></td>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/spellchecker/README.html">spellchecker</a></td>
+         </tr>
+         <tr>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/execute_time/readme.html">ExecuteTime</a></td>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/varInspector/README.html"> Variable Inspector</a></td>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toggle_all_line_numbers/readme.html">Toggle All Line Numbers</a></td>
+         </tr>
+         <tr>
+            <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/export_embedded/readme.html">Export Embedded HTML</a></td>
+            <td colspan="2"></td>
+         </tr>
+    </tbody>
+</table>
 
 
 ## Project List
