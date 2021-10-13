@@ -7,6 +7,9 @@
 ## View Notebooks (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Analysis of World Happiness Reports (2015-2019).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Analysis%20of%20World%20Happiness%20Reports%20%282015-2019%29/Analysis%20of%20World%20Happiness%20Reports%20%282015-2019%29.ipynb)
 
+  > It should be noted that due to the way plotly draws animated geo-maps, they are not able to be viewed properly 
+  > in nbviewer, and thus it's advised to view them directly from the [original notebook](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019)/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019).ipynb) 
+  > in a [jupyter environment](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019)#jupyter-environment) instead.
 
 ## How to Use
 
