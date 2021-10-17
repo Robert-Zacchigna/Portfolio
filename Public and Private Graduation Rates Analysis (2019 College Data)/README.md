@@ -1,4 +1,4 @@
-<h1 align="center">Public and Private Graduation Rates Analysis (2019 College Data)</h1>
+<h1 align="center">Public and Private Graduation Rates Analysis (2019 U.S. College Data)</h1>
 
 <p align="center">This project explores the relationship between public and private 
 universities graduation rates to see if a university being Private or Public has an 
