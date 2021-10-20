@@ -6,8 +6,14 @@ $(window).bind('load resize', function(event) {
 <!-- Nav Bar Page Highlighting -->
 $(function(){
     $('a').each(function(){
-        if ($(this).prop('href') == window.location.href) {
+        var win_href = window.location.href;
+
+        if ($(this).prop('href') == win_href) {
             $(this).parent('div').addClass('active');
+        } else if ($(this).prop('href') == win_href.slice(0, -1)) {
+            $(this).parent('div').addClass('active');
+        } else {
+            $(this).parent('div').removeClass('active');
         }
     });
 });
