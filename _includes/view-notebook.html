@@ -6,9 +6,9 @@
             Click the "View Notebook" button to open the rendered notebook in a new tab
         </li>
         <li>
-            Click the "GitHub Notebook" button to view the notebook in the portfolio repo (opens in new tab)
+            Click the "GitHub" button to view the project in the portfolio repo in a new tab
         </li>
     </ul>
-    <b><a class="btn btn-success" title="{{ notebook_page | remove_first: ".html" }}" href="{{ "/assets/notebooks/{{ notebook_page }}" | prepend: site.baseurl }}" target="_blank">View Notebook</a></b>
-    <b><a class="btn btn-success" href="{{ github_notebook }}" target="_blank">GitHub Notebook</a></b>
+    <b><a class="btn btn-success" title="{{ notebook_page | remove_first: ".html" }}" href="{{ "/assets/notebooks/" | prepend: site.baseurl }}{{ notebook_page }}" target="_blank">View Notebook</a></b>
+    <b><a class="btn btn-success" href="{{ github_notebook }}" target="_blank">GitHub</a></b>
 </div>

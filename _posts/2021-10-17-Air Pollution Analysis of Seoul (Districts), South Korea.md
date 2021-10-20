@@ -44,7 +44,7 @@ which is an API for retrieving air quality data from countries around the world.
 [WAQI](https://waqi.info/){:target="_blank"} (**W**orld **A**ir **Q**uality **I**ndex) and was originally founded in Beijing, China.
 
 {% assign part = "-Part-3" %}
-{% assign notebook_page = "Part 3 - Parse and Reformat South Korean Air Pollution Data (API)" %}
+{% assign notebook_page = "Part 3 - Parse and Reformat South Korean Air Pollution Data (API).html" %}
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea" %}
 
 {% include view-notebook.html html=content %}
@@ -62,7 +62,7 @@ Below is a graph of all the merged data, color coordinated by the AQI for that t
 > collected far more recently than the collected CSV and Web data.
 
 {% assign part = "-Part-4" %}
-{% assign notebook_page = "Part 4 - Merging & Querying All South Korean Air Pollution Data" %}
+{% assign notebook_page = "Part 4 - Merging & Querying All South Korean Air Pollution Data.html" %}
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea" %}
 
 {% include view-notebook.html html=content %}
