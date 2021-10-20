@@ -1,0 +1,14 @@
+<div>
+    <h2 id="view-jupyter-notebook{{ part | downcase }}">View Jupyter Notebook {{ part | remove_first: "-" }}</h2>
+    <p>The notebook goes step-by-step through the project, please follow the directions and cell order if you would like to replicate the results.</p>
+    <ul>
+        <li>
+            Click the "View Notebook" button to open the rendered notebook in a new tab
+        </li>
+        <li>
+            Click the "GitHub Notebook" button to view the notebook in the portfolio repo (opens in new tab)
+        </li>
+    </ul>
+    <b><a class="btn btn-success" title="{{ notebook_page | remove_first: ".html" }}" href="{{ "/assets/notebooks/{{ notebook_page }}" | prepend: site.baseurl }}" target="_blank">View Notebook</a></b>
+    <b><a class="btn btn-success" href="{{ github_notebook }}" target="_blank">GitHub Notebook</a></b>
+</div>

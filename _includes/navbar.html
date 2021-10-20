@@ -1,23 +1,24 @@
 <!-- Nav Bar Start -->
-<header id="nav-head" style="position: -webkit-sticky; position: sticky; top: 0px;">
-    <div class="content post-title" style="padding-top: 0px; padding-bottom: 0px;">
-        <nav class="nav">
-            <div class="nav-item nav-resize">
-                <a href="{{ site.baseurl }}">Home</a>
-            </div>
-            <div class="nav-item nav-resize">
-                <a href="{{ site.baseurl | append: '/'}}about">About</a>
-            </div>
-            <div class="nav-item nav-resize">
-                <a href="{{ site.baseurl | append: '/'}}contact">Contact</a>
-            </div>
-            <div class="nav-item nav-resize">
-                <a href="{{ site.baseurl | append: '/'}}assets/Resume - GitHub.pdf" target="_blank">Resume</a>
-            </div>
-            <div class="nav-item nav-resize">
-                <a href="{{ site.baseurl | append: '/'}}atom.xml" target="_blank">RSS</a>
-            </div>
-        </nav>
-    </div>
+<header class="content" id="nav-head" style="padding-top: 0px; padding-bottom: 0px; position: -webkit-sticky; position: sticky; top: 0px; z-index: 2;">
+    <nav class="post-title nav">
+        <div class="nav-item nav-resize">
+            <a href="{{ site.baseurl }}">Home</a>
+        </div>
+        <div class="nav-item nav-resize">
+            <a href="{{ site.baseurl | append: '/'}}about">About</a>
+        </div>
+        <div class="nav-item nav-resize">
+            <a href="{{ site.baseurl | append: '/'}}contact">Contact</a>
+        </div>
+        <div class="nav-item nav-resize">
+            <a href="{{ site.baseurl | append: '/'}}assets/Resume.pdf" target="_blank">Resume/CV</a>
+        </div>
+        <div class="nav-item nav-resize">
+            <a href="https://github.com/Robert-Zacchigna/Portfolio" target="_blank">Notebook Repo</a>
+        </div>
+        <div class="nav-item nav-resize">
+            <a href="{{ site.baseurl | append: '/'}}atom.xml" target="_blank">RSS</a>
+        </div>
+    </nav>
 </header>
 <!-- Nav Bar close -->

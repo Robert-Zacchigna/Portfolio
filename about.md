@@ -14,7 +14,7 @@ of the web containing my various data science'y projects that I have worked or i
 On the left-hand side of the page you will see a sidebar that lists all the projects I have worked on and published. Feel 
 free to browse around and take a look, there is quite the variety of content to view.
 
-## A Little About Me (<a style="color: #ffeb99;" onMouseOver="this.style.color='#caad00'" onMouseOut="this.style.color='#ffeb99'" target="_blank" href="{{ site.baseurl | append: '/' }}assets/Resume - GitHub.pdf">Resume</a>)
+## A Little About Me (<a style="color: #ffeb99;" onMouseOver="this.style.color='#caad00'" onMouseOut="this.style.color='#ffeb99'" target="_blank" href="{{ site.baseurl | append: '/' }}assets/Resume.pdf">Resume</a>)
 
 I graduated from [Illinois State University](https://illinoisstate.edu/ "Go Redbirds!"){:target="_blank"} in 2019 and not long after started working as a Data Engineer at my current employer: 
 [Discover Financial Services](https://www.discover.com/company/){:target="_blank"} (going on almost 2.5 years of service).

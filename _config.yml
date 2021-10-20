@@ -6,7 +6,7 @@ remote_theme:     Robert-Zacchigna/BlackDoc
 # Setup
 title:            Robert Zacchigna's Project Portfolio
 tagline:          Hire Me
-description:      "Below is a list of projects I have worked on."
+description:      "You can view my posts below (ordered by date of posting), the most recent post is at the top."
 url:              https://github.com/Robert-Zacchigna/Portfolio
 baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"

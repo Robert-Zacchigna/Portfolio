@@ -32,8 +32,7 @@ ______ _            _   ______
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   scroll-padding-top: calc(var(--nav-height) + 2px);
-  overflow-x: hidden;
-  overflow: scroll;
+  overflow-x: auto;
 }
 
 body {
@@ -150,7 +149,13 @@ tbody tr:nth-child(odd) th {
   }
 }
 
-@media (min-width: 58em) {
+@media (min-width: 64em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 80em) {
   html {
     font-size: 20px;
   }
@@ -198,7 +203,7 @@ tbody tr:nth-child(odd) th {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.25rem;
   color: rgba(255, 255, 255, .5);
   background-color: #000;
   overflow: auto;
@@ -269,6 +274,8 @@ nav .active {
 }
 
 .nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     flex-wrap: wrap;
     background-color: #3c3c3c;
@@ -278,7 +285,9 @@ nav .active {
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
+
     text-align: center;
+    border-radius: 7px;
 }
 
 @media (min-width: 25em) {
@@ -293,11 +302,6 @@ nav .active {
   }
 }
 
-@media (min-width: 64em) {
-  .nav-resize {
-    font-size: 35px;
-  }
-}
 
 /* Container
  *
