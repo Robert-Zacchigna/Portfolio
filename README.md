@@ -37,7 +37,8 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
          </tr>
          <tr>
             <td><a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/export_embedded/readme.html">Export Embedded HTML</a></td>
-            <td colspan="2"></td>
+            <td><a href="https://rise.readthedocs.io/en/stable/index.html">Slideshow</a></td>
+            <td></td>
          </tr>
     </tbody>
 </table>
@@ -72,36 +73,35 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    * This project analyzes an Expedia customer information with the objective of creating a model to optimize user’s hotel recommendation.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/README.md)
    
-
-4. [<ins>Neural Network Classifiers</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras))
+   
+4. [<ins>IN PROGRESS – Malaria Cell Image Classification</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Malaria%20Cell%20Image%20Classification)
+   * This project deals with identifying and classifying images of malaria cells as either uninfected or infected/parasitized.
+   * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Malaria%20Cell%20Image%20Classification/README.md)
+   
+   
+5. [<ins>Neural Network Classifiers</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras))
    * This python notebook outlines different ways of setting up and training Neural Network Classifiers with Scikit and Keras. 
    The networks are trained using a collection of categorized online comment and image datasets.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras)/README.md)
    
 
-5. [<ins>Predict Graduation Rates (2019 College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20College%20Data))
+6. [<ins>Predict Graduation Rates (2019 College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20College%20Data))
    * This project explores how various university factors (Economic, Academic, Enrollment, Faculty, etc...) can predict a university's student graduation rate.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predict%20Graduation%20Rates%20(2019%20College%20Data)/README.md)
    
 
-6. [<ins>Predict Prospective Student Graduate Admission into University</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University)
+7. [<ins>Predict Prospective Student Graduate Admission into University</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University)
    * This projects attempts to predict the chance of a prospective student being admitted into a university's graduate 
    program, along with exploring multiple different prediction model types to find the best one possible.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University/README.md)
    
 
-7. [<ins>Predicting Credit Card Customer Attrition</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn))
+8. [<ins>Predicting Credit Card Customer Attrition</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn))
    * This project explores a customer churn dataset that aimed to create a model that could be used to predict when 
    customers might drop the banks credit card and if it’s possible to prevent it.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn)/README.md)
    
-
-8. [<ins>NOT STARTED – Predicting Telco Customer Churn</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Telco%20Customer%20Churn)
-   * This project explores a Telco customer churn dataset that aims to create a model that could be used to predict when 
-   customers might drop the company’s telecommunication services.
-   * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Telco%20Customer%20Churn/README.md)
    
-
 9. [<ins>Predicting Video Game Sales</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Video%20Game%20Sales)
    * This project will be examining Video Game Sales by region, with information about the type of video game being sold 
    and how well it performed in the region. The goal is to create a model that can be used to predict the expected sales performance of a video game.

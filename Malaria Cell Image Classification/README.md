@@ -1,7 +1,6 @@
-<h1 align="center">Predicting Telco Customer Churn</h1>
+<h1 align="center">Malaria Cell Image Classification</h1>
 
-<p align="center">This project attempts to predict if a customer will drop a telecommunication 
-service and if it's possible to prevent it.</p>
+<p align="center">This project aims to identify and classify cell images that are uninfected or infected/parasitized with malaria</p>
 
 
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
@@ -10,9 +9,14 @@ service and if it's possible to prevent it.</p>
 
 ## How to Use
 
-### 1. Extract Dataset
+### 1. Download Extract Dataset
 
-First go into the Telco_Churn_Data folder and extract the dataset from the zip file inside.
+Download Dataset: https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
+> The dataset for this project was too big to be stored on GitHub, thus you will need to download it yourself.
+
+Click the "Download" button just underneath the right side of the page header (top of the page).
+
+Extract and move the dataset files into the "Cell_Images" folder.
 
 ### 2. Run Notebook Cells
 
