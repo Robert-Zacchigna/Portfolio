@@ -4,7 +4,7 @@
 
 
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
-* []()
+* [Malaria Cell Image Classification.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Malaria%20Cell%20Image%20Classification/Malaria%20Cell%20Image%20Classification.ipynb)
 
 
 ## How to Use

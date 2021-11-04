@@ -74,7 +74,7 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/README.md)
    
    
-4. [<ins>IN PROGRESS – Malaria Cell Image Classification</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Malaria%20Cell%20Image%20Classification)
+4. [<ins>Malaria Cell Image Classification</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Malaria%20Cell%20Image%20Classification)
    * This project deals with identifying and classifying images of malaria cells as either uninfected or infected/parasitized.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Malaria%20Cell%20Image%20Classification/README.md)
    
