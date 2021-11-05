@@ -70,7 +70,7 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    
 
 3. [<ins>Create Optimal Hotel Recommendations</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Create%20Optimal%20Hotel%20Recommendations)
-   * This project analyzes an Expedia customer information with the objective of creating a model to optimize user’s hotel recommendation.
+   * This project analyzes Expedia customer information with the objective of creating a model to optimize user’s hotel recommendations.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/README.md)
    
    
@@ -103,8 +103,8 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    
    
 9. [<ins>Predicting Video Game Sales</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Video%20Game%20Sales)
-   * This project will be examining Video Game Sales by region, with information about the type of video game being sold 
-   and how well it performed in the region. The goal is to create a model that can be used to predict the expected sales performance of a video game.
+   * This project will examine Video Game Sales by region, with information about the type of video game being sold 
+   and how well it performed in the region, in order to create a model that can be used to predict the expected sales performance of a video game.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Video%20Game%20Sales/README.md)
    
 
