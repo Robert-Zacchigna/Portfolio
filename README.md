@@ -85,7 +85,7 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras)/README.md)
    
 
-6. [<ins>Predict Graduation Rates (2019 U.S. College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data)))
+6. [<ins>Predict Graduation Rates (2019 U.S. College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data))
    * This project explores how various university factors (Economic, Academic, Enrollment, Faculty, etc...) can predict a university's student graduation rate.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data)/README.md)
    
