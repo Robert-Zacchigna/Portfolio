@@ -1,4 +1,4 @@
-<h1 align="center">Predict Graduation Rates (2019 College Data)</h1>
+<h1 align="center">Predict Graduation Rates (2019 U.S. College Data)</h1>
 
 <p align="center">This project explores how various university factors (Economic, Academic, 
 Enrollment, Faculty, etc...) can predict a university's student graduation rate.</p>
