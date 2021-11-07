@@ -85,9 +85,9 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras)/README.md)
    
 
-6. [<ins>Predict Graduation Rates (2019 College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20College%20Data))
+6. [<ins>Predict Graduation Rates (2019 U.S. College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data)))
    * This project explores how various university factors (Economic, Academic, Enrollment, Faculty, etc...) can predict a university's student graduation rate.
-   * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predict%20Graduation%20Rates%20(2019%20College%20Data)/README.md)
+   * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data)/README.md)
    
 
 7. [<ins>Predict Prospective Student Graduate Admission into University</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University)
@@ -108,7 +108,7 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Video%20Game%20Sales/README.md)
    
 
-10. [<ins>Public and Private Graduation Rates Analysis (2019 College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20College%20Data))
+10. [<ins>Public and Private Graduation Rates Analysis (2019 U.S. College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20U.S.%20College%20Data))
     * This project explores the relationship between public and private universities' graduation rates to see if a 
     university being Private or Public has an effect on its graduation rate and what factors specifically affect those rates.
-    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20College%20Data)/README.md)
+    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20U.S.%20College%20Data)/README.md)
