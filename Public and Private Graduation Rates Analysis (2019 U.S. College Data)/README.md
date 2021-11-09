@@ -25,6 +25,18 @@ You will need to set up a Jupyter environment in order to run the notebook:
     * [Running the Notebook](https://jupyter.readthedocs.io/en/latest/running.html#running)
 
 
+### ThinkStats2
+
+This notebook uses custom libraries from the [Think Stats](https://greenteapress.com/thinkstats/) book by *Allen Downey*.
+The relevant python files have been included in the `ThinkStats2` folder but here are the links to the files in their 
+original repo:
+
+Allen Downey [ThinkStats2 GitHub Repo](https://github.com/AllenDowney/ThinkStats2):
+
+* Specifically [ThinkPlot.py](https://github.com/AllenDowney/ThinkStats2/tree/master/thinkplot)
+* Specifically [ThinkStats2.py](https://github.com/AllenDowney/ThinkStats2/tree/master/thinkstats2)
+
+
 ## Built With
 
 - [Python](https://www.python.org/downloads/)
