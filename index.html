@@ -3,37 +3,57 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<link rel="stylesheet" href="{{ "/assets/github_feed/octicons.css" | prepend: site.baseurl }}>
+<link rel="stylesheet" href="{{ "/assets/github_feed/github-activity.min.css" | prepend: site.baseurl }}>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<script type="text/javascript" src="{{ "/assets/github_feed/mustache.min.js" | prepend: site.baseurl }}></script>
+<script type="text/javascript" src="{{ "/assets/github_feed/github-activity.min.js" | prepend: site.baseurl }}></script>
 
-    {{ post.content }}
-  </div>
-  <hr style="z-index: -1;">
-  <hr style="z-index: -1;">
-  {% endfor %}
-</div>
+<!-- if using dark theme add this in addition to the main CSS file -->
+<link rel="stylesheet" href="{{ "/assets/github_feed/github-activity.dark.min.css" | prepend: site.baseurl }}>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<script type="text/javascript">
+    GitHubActivity.feed({
+        username: "Robert-Zacchigna",
+        selector: "#feed", limit: 5,
+    });
+</script>
+
+<style>
+    .home_background {
+        margin-bottom: 1em;
+        padding: 1.5em 0 1.5em 0;
+
+        background-image: url('{{ "/assets/images/Home/binary_code_banner.png" | prepend: site.baseurl }}');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<center>
+    <div class="home_background">
+        <img src="{{ "/assets/images/Home/Robert_Home.jpg" | prepend: site.baseurl }}" style="margin-bottom: 0; max-width: 230px; border-radius: 15%;" title="Robert Zacchigna">
+    </div>
+
+    <div>
+        <p>
+            <a href="https://c.tenor.com/DSG9ZID25nsAAAAC/hello-there-general-kenobi.gif" target="_blank">Hello there</a>,
+            on this site you will find many a post/project of the <a href="https://en.wikipedia.org/wiki/Data_science" target="_blank" title="But not always...">Data Science</a>
+            variety, you can search through my posts on the sidebar.
+            <br>
+            You can also click the "<a href="{{ site.baseurl | append: '/'}}assets/post-feed/index.html">Post-Feed</a>" link in the navbar to see my most current posts or click
+            the "<a href="{{ site.baseurl | append: '/'}}search">Search</a>" link to search through all the posts on the site.
+        </p>
+        <p>
+            Whatever brought you here, I hope you find what you're looking for. Thanks for viewing.
+            <br>
+            More <a href="{{ site.baseurl | append: '/'}}about">about</a> me and/or get in <a href="{{ site.baseurl | append: '/'}}contact">contact</a> with me.
+        </p>
+    </div>
+</center>
+
+<div style="padding-bottom: 1em;">
+    <h1 id="github-activity-feed">GitHub Activity Feed <a href="#github-activity-feed">#</a></h1>
+
+    <div id="feed" ></div>
 </div>

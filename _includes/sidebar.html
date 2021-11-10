@@ -10,26 +10,32 @@
     </div>
 
     <nav class="sidebar-nav">
+
       {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
+        The code below dynamically generates a sidebar nav of posts organize by year in different dropdown menus.
+        `layout: post` in the front-matter. See readme for usage.
       {% endcomment %}
-	  
-      {% assign posts_list = site.posts %}
-      {% for node in posts_list %}
-        {% if node.title != null %}
-          {% if node.layout == "post" %}
-            <hr style="margin: 0.3em 0; z-index: 1;">
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
+
+      {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+      {% for year in postsByYear %}
+        <a class="dropdown-btn btn btn-success" id="{{ year.name }}" style="cursor: pointer; font-weight: bold;">{{ year.name }} <span style="font-weight: 1;">&#11167;</span></a>
+      {% endfor %}
+
+      {% for year in postsByYear %}
+        <div class="dropdown-year" id="{{ year.name }}" style="display: none;">
+        {% for post in year.items %}
+          <hr style="margin: 0.3em 0; z-index: 1;">
+          <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% endfor %}
+        </div>
       {% endfor %}
 
       <hr style="z-index: 1;">
-      <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}">View GitHub</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/refs/heads/main.zip">Download Projects</a>
+      <a class="sidebar-nav-item" target="_blank" href="{{ site.github_url }}">View GitHub</a>
+      <a class="sidebar-nav-item" href="{{ site.github_url }}/archive/refs/heads/main.zip">Download Projects</a>
+      <p style="color: #DEDEDE;">Jekyll Theme: <a href="{{ site.github_url }}/tree/gh-pages_BlackDoc-Theme" target="_blank"><strong>BlackDoc</strong></a></p>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}, All rights reserved.</p>
   </div>
 </div>

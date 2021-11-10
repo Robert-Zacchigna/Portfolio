@@ -13954,7 +13954,7 @@ div#notebook {
 <p>Before making any more assumptions i decided to run linear models on Grad.Rate with each of the other variables to determine their R^2 values and calculate the RMSE. These values, combined with the heatmap, will give me a better idea of how the variables relate to Grad.Rate and if there is any significance between them.</p>
 <p><a id="Part_2"></a></p>
 <h1 id="Part-2:-Model-Analysis">Part 2: Model Analysis<a class="anchor-link" href="#Part-2:-Model-Analysis">¶</a></h1><p><a id="Part_2-R2_RMSE"></a></p>
-<h2 id="R^2-and-RMSE">R^2 and RMSE<a class="anchor-link" href="#R%5E2-and-RMSE">¶</a></h2><p>Calculate RMSE and R^2 values and store values into a dataframe fro easy plotting</p>
+<h2 id="R^2-and-RMSE">R^2 and RMSE<a class="anchor-link" href="#R%5E2-and-RMSE">¶</a></h2><p>Calculate RMSE and R^2 values and store values into a dataframe for easy plotting</p>
 
 </div>
 </div>
@@ -15608,7 +15608,7 @@ The final value used for the model was k = 9.
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Overall, looking at the graphs above, the model with the lowest RMSE and the highest R^s is the fourth randomforest model (clean_rf4). The randomForest models faired about the same (just slightly worse) as the linear models and curiously the knn models faired far worse than both the linear and randomForest  models. However, the R^2 is still very low and the RMSE means that model is only able to predict the Grad Rate of a University from within about the RMSE margin. In terms of a graduation rate, that is quite a large margin and as a result, this should probably not be used to predict a universities graduation rate.</p>
+<p>Overall, looking at the graphs above, the model with the lowest RMSE and the highest R^2 is the 1st randomforest model (clean_rf1). The randomforest models faired about the same (just slightly better) as the linear models and curiously, the knn models faired far worse than both the linear and randomForest models. However, the R^2 is still very low and the RMSE means that model is only able to predict the Grad Rate of a University from within about the RMSE margin. In terms of a graduation rate, that is quite a large margin and as a result, this should probably not be used to predict a universities' graduation rate.</p>
 <p><a id="Part_3-Quest_2"></a></p>
 <h2 id="Which-variables-have-the-biggest-significant-impact-on-the-graduation-rate-of-a-university?">Which variables have the biggest significant impact on the graduation rate of a university?<a class="anchor-link" href="#Which-variables-have-the-biggest-significant-impact-on-the-graduation-rate-of-a-university?">¶</a></h2><p>First Model P-Values</p>
 
@@ -15757,8 +15757,8 @@ The final value used for the model was k = 9.
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>From the above lists we can see that for the first model the variables: perc.alumni, Expend, Outstate, Top25perc, Private, Personal, Room.Board, and Apps were all significant.</p>
-<p>Since the fourth model performed better than the first one, i am inclined to say that the variables listed as significant in the fourth model have a bigger impact on the data than those in the first model: perc.alumni, Top25perc, Outstate, Apps, Expend, and Private.</p>
+<p>From the above lists we can see that for the first model the variables: <code>perc.alumni, Expend, Outstate, Top25perc, Private, Personal, Room.Board, and Apps</code> were all significant.</p>
+<p>Since the fourth model performed better than the first one, i am inclined to say that the variables listed as significant in the fourth model have a bigger impact on the data than those in the first model: <code>perc.alumni, Top25perc, Outstate, Apps, Expend, and Private</code>.</p>
 <p><a id="Part_3-Quest_3"></a></p>
 <h2 id="What-is-the-distribution-of-universities-with-graduation-rates-higher-than-30%,-50%,-70%,-90%?">What is the distribution of universities with graduation rates higher than 30%, 50%, 70%, 90%?<a class="anchor-link" href="#What-is-the-distribution-of-universities-with-graduation-rates-higher-than-30%,-50%,-70%,-90%?">¶</a></h2>
 </div>
@@ -16120,7 +16120,7 @@ FALSE  TRUE
 <p>From the second comparison (Public to Private) of 169 originally public universities, about 67% of the total saw an increase in their Grad Rate and the rest (about 33%) either saw a decrease or it stayed the same. Based on this, i would say that if a public university decides to become private then it could be assumed that they would experience an increase in their graduation rate.</p>
 <p>However, we do still need to keep in mind that this result is based a model with a wide error margin  and should not be taken too confidently.</p>
 <p><a id="Concluson"></a></p>
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h1><p>In conclusion, based on all of the analysis i have done on the this dataset i am confident when i say that this dataset does not have either enough data or the right variables measured to predict the graduation rate of these universities to a confident degree. The models RMSE's and R^s are not good enough to be able to use the models for graduation rate prediction of the universities. I would recommend that more data be collected and other variables of measure be collected as well to get a better spread of data to be to get more accurate models.</p>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h1><p>In conclusion, based on all of the analysis, I am confident when I say that this dataset does not have either enough data or the right variables measured to predict the graduation rate of these universities to a confident degree. The models RMSE's and R^2's are not good enough to be able to use the models for graduation rate prediction of the universities. I would recommend that more data be collected and other variables of measure be collected as well to get a better spread of data to be to get more accurate models.</p>
 <p><a id="Mean_for_Uni"></a></p>
 <h1 id="What-this-Means-for-the-Universities">What this Means for the Universities<a class="anchor-link" href="#What-this-Means-for-the-Universities">¶</a></h1><p>It can mean that the variables measured in this dataset do not actually have an effect on the graduation rate and thus the university administration does not need to spend more time and/or resources improving upon them to boost their grad rate. However, as i said above, i do believe that there needs to be more data collected and possibly more variable measurements added as well to more confidently agree with that statement.</p>
 <p><a id="Limit_Improv"></a></p>

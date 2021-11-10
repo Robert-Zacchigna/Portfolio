@@ -6,8 +6,10 @@ remote_theme:     Robert-Zacchigna/BlackDoc
 # Setup
 title:            Robert Zacchigna's Project Portfolio
 tagline:          Hire Me
-description:      "You can view my posts below (ordered by date of posting), the most recent post is at the top."
-url:              https://github.com/Robert-Zacchigna/Portfolio
+description:      "Posts are organized by year, click on the dropdowns to see all of the posts for that year with the most recent post at the top."
+github_url:       https://github.com/Robert-Zacchigna/Portfolio
+gh_page_url:	  https://robert-zacchigna.github.io/Portfolio
+permalink:        /:year/:month/:day/:title.html
 baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
@@ -19,15 +21,12 @@ author:
   url:            https://github.com/Robert-Zacchigna/
 
 paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+paginate_path:    '/assets/post-feed/page-:num/'
+                  # Or '/my-jekyll-site/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-
-
-github:
-  repo:             https://github.com/Robert-Zacchigna/Portfolio
+  - jekyll-octicons
 

@@ -31,12 +31,14 @@ ______ _            _   ______
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  scroll-padding-top: calc(var(--nav-height) + 2px);
+  scroll-padding-top: calc(var(--nav-height) + 7px);
   overflow-x: auto;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical;
 }
 
 body {
-  max-width: 96em;
+  max-width: 90em;
   margin: 0 auto !important;
   float: none !important;
 
@@ -140,10 +142,10 @@ tbody tr:nth-child(odd) th {
 
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
-  border: 1px solid #444;
+  border: 2px solid #444;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 55em) {
   html {
     font-size: 16px;
   }
@@ -203,13 +205,13 @@ tbody tr:nth-child(odd) th {
 
 .sidebar {
   text-align: center;
-  padding: 0.25rem;
+  padding-top: 0.35rem;
   color: rgba(255, 255, 255, .5);
   background-color: #000;
-  overflow: auto;
+  overflow-y: auto;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 55em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -217,12 +219,25 @@ tbody tr:nth-child(odd) th {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    overflow-y: scroll;
   }
+}
+
+/* Dropdown Buttons */
+.active-btn {
+    background-color: #ebcb8b;
+    border-color: #ebcb8b;
+    color: black !important;
+}
+
+/* Active Dropdown */
+.active-year {
+    display: block !important;
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #dedede   ;
+  color: #dedede;
 }
 
 /* About section */
@@ -237,14 +252,17 @@ tbody tr:nth-child(odd) th {
 .sidebar-nav {
   margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
+
 .sidebar-nav-item.active {
   font-weight: bold;
 }
@@ -255,7 +273,7 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
+@media (min-width: 55em) {
   .sidebar-sticky {
     /* position: absolute;*/
     right: 1rem;
@@ -292,16 +310,21 @@ nav .active {
 
 @media (min-width: 25em) {
   .nav-resize {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 55em) {
+  .nav-resize {
     font-size: 25px;
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 74em) {
   .nav-resize {
     font-size: 30px;
   }
 }
-
 
 /* Container
  *
@@ -314,7 +337,7 @@ nav .active {
   padding-bottom: 0.5rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 55em) {
   .content {
     max-width: 95%;
     margin-left: 18rem;

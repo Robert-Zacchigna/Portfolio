@@ -287,7 +287,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 55rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -355,8 +355,8 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-top: 1px solid #eee;
 }
 .related-posts {
@@ -390,6 +390,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
+  padding-left: 1px;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
@@ -397,22 +398,46 @@ tbody tr:nth-child(odd) th {
 
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
+  background-color: #1e1e1e;
   display: block;
-  padding: 1rem;
+  padding: 0.7rem;
   border: 1px solid #eee;
 }
 .pagination-item:first-child {
-  margin-bottom: -1px;
+  margin-bottom: 0px;
+}
+.page-older {
+    margin-bottom: -2px !important;
 }
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: gray;
+  background-color: #ebcb8b;
+  border-color: #ebcb8b;
+  color: #26282d;
 }
 
-@media (min-width: 30em) {
+.page-tabs {
+    bottom: 0em;
+  }
+
+@media (min-width: 70em) {
   .pagination {
-    margin: 3rem 0;
+    margin: 1rem 0;
+    max-width: 60%;
+  }
+  .page-tabs {
+    bottom: 1em;
+  }
+  .page-older {
+    border-right: 1px solid #444 !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+  .page-newer {
+    border-left: 1px solid #444 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
   }
   .pagination-item {
     float: left;

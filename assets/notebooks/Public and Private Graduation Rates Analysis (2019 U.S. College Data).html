@@ -14283,8 +14283,8 @@ Graduation Rate: 118%
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Texas A&amp;M University at Galveston lists a faculty PhD percentage of 103% which, in the context of variable measured, is impossible because the variable is measuring the number of faculty with at least one PhD and thus if a person has multiple PhD’s they will only be counted as one.</p>
-<p>Cazenovia College lists a graduation rate of 118% which is also impossible because you cant have more students graduated than the number of students in the graduating class.</p>
+<p>Texas A&amp;M University at Galveston lists a faculty PhD percentage of 103% which, in the context of the variable measured, is impossible because the variable is measuring the number of faculty with <em>at least</em> one PhD and thus if a person has multiple PhD’s they will only be counted as one.</p>
+<p>Cazenovia College lists a graduation rate of 118% which is also impossible because you can't have more students graduated than the number of students in the graduating class.</p>
 <p>For the above reasons, these two data points will be removed from the dataset as they are more than likely a data collection error.</p>
 
 </div>
@@ -14494,7 +14494,7 @@ dtype: int64
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="Part_1-Split_Dataset"></a></p>
-<h2 id="Split-Dataset">Split Dataset<a class="anchor-link" href="#Split-Dataset">¶</a></h2><p>For the purposes of this analysis, i am comparing the graduation rates of Public and Private universities to see which one is higher and to se which variables have the greatest significance in determining that grad rate. As a result, I will be spliting the dataset into two parts: Public and Private univerities.</p>
+<h2 id="Split-Dataset">Split Dataset<a class="anchor-link" href="#Split-Dataset">¶</a></h2><p>For the purposes of this analysis, i am comparing the graduation rates of Public and Private universities to see which one is higher and to see which variables have the greatest significance in determining that grad rate. As a result, I will be splitting the dataset into two parts: Public and Private universities.</p>
 
 </div>
 </div>
@@ -14744,9 +14744,9 @@ dtype: int64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>From the Normal Probability Plots to the right, we can see that the distribution of all university graduation rates is approximately normal with a slight tail on the left side</p>
-<p>Plotting just the Public and Private graduation rates shows me that their distributions also follow normality but with more pronounced tails on both ends.</p>
-<p>These graphs show me that the distribution of All, Private and Public graduation rates do not have extreme outliers, the data is approximately normal and that there isn’t significant skewness to the data that could disproportionally sway my analysis.</p>
+<p>From the Normal Probability Plots above, we can see that the distribution of <strong>All</strong> university graduation rates is approximately normal with a slight tail on the left side.</p>
+<p>Public and Private graduation rate plots makes it clear that their distributions also follow normality but with more pronounced tails on both ends.</p>
+<p>The graphs also show that the distribution of all the graduation rates (public and private) is approximately normal and that there isn't significant skewness to the data that could disproportionally sway the analysis.</p>
 <p><a id="Part_1-Scatter_Plot"></a></p>
 <h2 id="Scatter-Plots---Public-and-Private-Acceptance-vs.-New-Enrollment">Scatter Plots - Public and Private Acceptance vs. New Enrollment<a class="anchor-link" href="#Scatter-Plots---Public-and-Private-Acceptance-vs.-New-Enrollment">¶</a></h2>
 </div>
@@ -14859,7 +14859,7 @@ dtype: int64
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>From the two scatter plots and correlation matrix above (detailing both Pearson and Spearman Corrs), we can see that the number of accepted and enrolled students in both public (Pearson: 0.879) and private (Pearson: 0.906) universities is positively strongly correlated and even more so when using Spearman's correlation (Public: 0.932, Private: 0.928) when compared to Pearson's.</p>
-<p>This indicates that the number of students accepted and enrolled is linearly related and that as the number of students accepted into the university increase, then the number of new student enrollments will also increase a proportional amount.</p>
+<p>This indicates that the number of students accepted and enrolled is linearly related and that as the number of students accepted into the university increases, then the number of new student enrollments will also increase a proportional amount.</p>
 <p><a id="Part_1-Hype_Test"></a></p>
 <h2 id="Hypothesis-Tests">Hypothesis Tests<a class="anchor-link" href="#Hypothesis-Tests">¶</a></h2>
 </div>
@@ -14928,10 +14928,10 @@ False Negative Rate: 0.0
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The first hypothesis test conducted is the Difference in Means, which resulted in a p-value of zero (odds are its not exactly zero but very small). Since the p-value is smaller than 0.05, the null hypothesis can be rejected.</p>
-<p>The next test is the Difference in Standard Deviations, which resulted in a p-value of 0.99. Since this p-value way greater than 0.05, the null hypothesis cannot be rejected. However, since the private dataset (564) has quite a few more values than the public dataset (211), the private standard deviation will be much larger and thus skewing the results.</p>
-<p>After that test is the Chi-Squares test, which resulted in a p-value of 0.002 and is much lower than 0.05 (as a result we can reject the null hypothesis.</p>
-<p>The final test was to see the rate of false negatives, which resulted in a value of 0.0 (odd are its not exactly zero, its just very small). Which is a good thing because that means that the power of this test has high statistical significance.</p>
+<p>The first hypothesis test conducted is the <a href="https://www.statisticshowto.com/mean-difference/">Difference in Means</a>, which resulted in a p-value of zero (odds are its not exactly zero but very small). Since the p-value is smaller than <code>0.05</code>, the null hypothesis can be rejected.</p>
+<p>The next test is the <a href="https://www.mathsisfun.com/data/standard-deviation-formulas.html">Difference in Standard Deviations</a>, which resulted in a p-value of <code>0.99</code>. Since this p-value way greater than <code>0.05</code>, the null hypothesis cannot be rejected. However, since the private dataset (564) has quite a few more values than the public dataset (211), the private standard deviation will be much larger and thus skewing the results.</p>
+<p>After that test is the <a href="https://www.statisticshowto.com/probability-and-statistics/chi-square/">Chi-Squares</a> test, which resulted in a p-value of <code>0.002</code> and is much lower than <code>0.05</code> (as a result we can reject the null hypothesis).</p>
+<p>The final test was to see the <a href="https://en.wikipedia.org/wiki/False_positives_and_false_negatives">False Negative Rate</a>, which resulted in a value of <code>0.0</code> (odds are its not exactly zero but very small). Which is a good thing because that means that the power of this test has high statistical significance.</p>
 <p><a id="Part_2"></a></p>
 <h1 id="Part-2:-Regression-Analysis">Part 2: Regression Analysis<a class="anchor-link" href="#Part-2:-Regression-Analysis">¶</a></h1><p><a id="Part_2-Least_Squares"></a></p>
 <h2 id="Least-Squares-Fit">Least Squares Fit<a class="anchor-link" href="#Least-Squares-Fit">¶</a></h2><p><a id="Part_2-Best_Fit"></a></p>
@@ -15056,7 +15056,7 @@ False Negative Rate: 0.0
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The above graph shows the 25th, 50th, and 75th percentiles of the Least Squares resiudals.</p>
+<p>The above graph shows the 25th, 50th, and 75th percentiles of the Least Squares residuals.</p>
 <p>Since the percentile lines are angled (or otherwise curved) in the residuals, this suggests that there is a non-linear relationship between Graduation Rate and Enrollments.</p>
 <p><a id="Part_2-Showing_Uncertainty"></a></p>
 <h3 id="Showing-Uncertainty">Showing Uncertainty<a class="anchor-link" href="#Showing-Uncertainty">¶</a></h3><p>Next, to see the uncertainty of the estimated slope and intercept, a fitted line can be created for each of the resampled estimates and plot them on top of each other.</p>

@@ -1,0 +1,42 @@
+---
+layout: default
+title: Post-Feed
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date" style="margin-bottom: 0em;"><strong>Date:</strong> {{ post.date | date_to_string }}</span>
+    <span class="post-date" style="margin: -0.3rem 0em 0.2em 0em;"><strong>Tag(s):</strong> {{ post.tags | join: ' ' }}</span>
+    <span class="post-date"><strong>Categories:</strong> {{ post.category }}</span>
+
+    {{ post.content }}
+  </div>
+  <hr style="z-index: -1; border: none; border-top: 0.5em solid lightgray; border-radius: 5px;">
+  {% endfor %}
+</div>
+
+<center class="page-tabs" style="position: -webkit-sticky; position: sticky; z-index: 2;">
+<div class="pagination">
+  {% if paginator.next_page %}
+    <b><a class="pagination-item older page-older" href="{{ site.baseurl | append: '/'}}assets/post-feed/page-{{paginator.next_page}}">Older Posts (Page-{{paginator.next_page}})</a></b>
+  {% else %}
+    <b><span class="pagination-item older page-older">Older Posts</span></b>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}assets/post-feed/index.html">Newer Posts (Page-1)</a></b>
+    {% else %}
+      <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}assets/post-feed/page-{{paginator.previous_page}}">Newer Posts (Page-{{paginator.previous_page}})</a></b>
+    {% endif %}
+  {% else %}
+    <b><span class="pagination-item newer page-newer">Newer Posts</span></b>
+  {% endif %}
+</div>
+</center>

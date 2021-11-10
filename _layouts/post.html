@@ -4,12 +4,15 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span class="post-date" style="margin-bottom: 0em;"><strong>Date:</strong> {{ page.date | date_to_string }}</span>
+  <span class="post-date" style="margin: -0.3rem 0em 0.2em 0em;"><strong>Tag(s):</strong> {{ page.tags | join: ' ' }}</span>
+  <span class="post-date"><strong>Categories:</strong> {{ page.category }}</span>
+
   {% include anchor_headings.html html=content anchorBody="#" %}
 </div>
 
 <div class="related">
-  <h2>Related Posts</h2>
+  <h2>Other Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
