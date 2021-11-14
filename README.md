@@ -57,12 +57,12 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
 >     * [What is JupyterHub?](https://jupyter.org/hub)
 
 
-1. [<ins>Air Pollution Analysis and Data Scraping of Seoul (Districts), South Korea</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea)
+1. [<ins>Air Pollution Data Scraping and Analysis of Seoul (Districts), South Korea</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea)
    * This is a 4 part Jupyter notebook that scrapes Seoul, South Korean Air Pollution data and then parses/reformat it 
    into a more usable format. The different data sources are then all condensed into one large dataset using sqlite3 to 
    create a tiny database to query the data from and create visualizations.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea/README.md)
-   * [Download (25 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea.zip)
+   * [Download (25 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Air%20Pollution%20Data%20Scraping%20and%20Analysis%20of%20Seoul%20(Districts)%2C%20South%20Korea.zip)
 
 
 2. [<ins>Analysis of World Happiness Reports (2015-2019)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019))
