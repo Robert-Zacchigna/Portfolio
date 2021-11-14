@@ -62,63 +62,63 @@ View website here: https://robert-zacchigna.github.io/Portfolio/
    into a more usable format. The different data sources are then all condensed into one large dataset using sqlite3 to 
    create a tiny database to query the data from and create visualizations.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea.zip)
+   * [Download (25 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea.zip)
 
 
 2. [<ins>Analysis of World Happiness Reports (2015-2019)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019))
    * This project is an analysis of World Happiness Reports from 2015-2019 and what trends there might be from countries all over the world.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019)/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019).zip)
+   * [Download (11 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019).zip)
    
 
 3. [<ins>Create Optimal Hotel Recommendations</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Create%20Optimal%20Hotel%20Recommendations)
    * This project analyzes Expedia customer information with the objective of creating a model to optimize user’s hotel recommendations.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Create%20Optimal%20Hotel%20Recommendations.zip)
+   * [Download (7.57 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Create%20Optimal%20Hotel%20Recommendations.zip)
    
    
 4. [<ins>Malaria Cell Image Classification</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Malaria%20Cell%20Image%20Classification)
    * This project deals with identifying and classifying images of malaria cells as either uninfected or infected/parasitized.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Malaria%20Cell%20Image%20Classification/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Malaria%20Cell%20Image%20Classification.zip)
+   * [Download (10.9 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Malaria%20Cell%20Image%20Classification.zip)
    
    
 5. [<ins>Neural Network Classifiers</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras))
    * This python notebook outlines different ways of setting up and training Neural Network Classifiers with Scikit and Keras. 
    The networks are trained using a collection of categorized online comment and image datasets.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras)/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras).zip)
+   * [Download (36.9)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras).zip)
    
 
 6. [<ins>Predict Graduation Rates (2019 U.S. College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data))
    * This project explores how various university factors (Economic, Academic, Enrollment, Faculty, etc...) can predict a university's student graduation rate.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data)/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data).zip)
+   * [Download (1.5 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predict%20Graduation%20Rates%20(2019%20U.S.%20College%20Data).zip)
    
 
 7. [<ins>Predict Prospective Student Graduate Admission into University</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University)
    * This projects attempts to predict the chance of a prospective student being admitted into a university's graduate 
    program, along with exploring multiple different prediction model types to find the best one possible.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University.zip)
+   * [Download (8.78 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University.zip)
    
 
 8. [<ins>Predicting Credit Card Customer Attrition</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn))
    * This project explores a customer churn dataset that aimed to create a model that could be used to predict when 
    customers might drop the banks credit card and if it’s possible to prevent it.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn)/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn).zip)
+   * [Download (4.76 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn).zip)
    
    
 9. [<ins>Predicting Video Game Sales</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Video%20Game%20Sales)
    * This project will examine Video Game Sales by region, with information about the type of video game being sold 
    and how well it performed in the region, in order to create a model that can be used to predict the expected sales performance of a video game.
    * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Video%20Game%20Sales/README.md)
-   * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predicting%20Video%20Game%20Sales.zip)
+   * [Download (5.26 MB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predicting%20Video%20Game%20Sales.zip)
    
 
 10. [<ins>Public and Private Graduation Rates Analysis (2019 U.S. College Data)</ins>](https://github.com/Robert-Zacchigna/Portfolio/tree/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20U.S.%20College%20Data))
     * This project explores the relationship between public and private universities' graduation rates to see if a 
     university being Private or Public has an effect on its graduation rate and what factors specifically affect those rates.
     * [README](https://github.com/Robert-Zacchigna/Portfolio/blob/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20U.S.%20College%20Data)/README.md)
-    * [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20U.S.%20College%20Data).zip)
+    * [Download (957 KB)](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20U.S.%20College%20Data).zip)
