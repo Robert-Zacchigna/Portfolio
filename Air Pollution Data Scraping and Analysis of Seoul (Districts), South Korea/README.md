@@ -1,4 +1,4 @@
-<h1 align="center">Air Pollution Analysis and Data Scraping of Seoul (Districts), South Korea</h1>
+<h1 align="center">Air Pollution Data Scraping and Analysis of Seoul (Districts), South Korea</h1>
 
 <p align="center">This is a 4 part project that scrapes Seoul (Districts), South Korea Air pollution data
 from various sources and then compiles it all together for analysis and graphing.</p>
