@@ -5,6 +5,11 @@ universities graduation rates to see if a university being Private or Public has
 effect on its graduation rate and what factors specifically affect those rates.</p>
 
 
+## Download Project
+
+<ins>Zipped Project (957 KB):</ins> [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20U.S.%20College%20Data).zip)
+
+
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Public and Private Graduation Rates Analysis (2019 U.S. College Data).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20%282019%20College%20Data%29/Public%20and%20Private%20Graduation%20Rates%20Analysis%20%282019%20U.S.%20College%20Data%29.ipynb)
 

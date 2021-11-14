@@ -4,6 +4,11 @@
 exploring multiple different prediction model types to find the best one possible</p>
 
 
+## Download Project
+
+<ins>Zipped Project (5.26 MB):</ins>[Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predicting%20Video%20Game%20Sales.zip)
+
+
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Predicting Video Game Sales.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Video%20Game%20Sales/Predicting%20Video%20Game%20Sales.ipynb)
 

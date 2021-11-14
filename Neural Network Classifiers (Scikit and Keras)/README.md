@@ -3,6 +3,11 @@
 <p align="center">Create several different types of Neural Network Classifiers on reddit comment data and analyze the results</p>
 
 
+## Download Project
+
+<ins>Zipped Project (36.9 MB):</ins> [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras).zip)
+
+
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Neural Network Classifiers (Scikit and Keras).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Neural%20Network%20Classifiers%20%28Scikit%20and%20Keras%29/Neural%20Network%20Classifiers%20%28Scikit%20and%20Keras%29.ipynb)
 

@@ -3,6 +3,11 @@
 <p align="center">This project aims to identify and classify cell images that are uninfected or infected/parasitized with malaria</p>
 
 
+## Download Project
+
+<ins>Zipped Project (10.9 MB):</ins> [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Malaria%20Cell%20Image%20Classification.zip)
+
+
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Malaria Cell Image Classification.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Malaria%20Cell%20Image%20Classification/Malaria%20Cell%20Image%20Classification.ipynb)
 

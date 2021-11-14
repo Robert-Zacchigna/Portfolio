@@ -5,6 +5,11 @@ being admitted into a university's graduate program, along with exploring multip
 different prediction model types to find the best one possible</p>
 
 
+## Download Project
+
+<ins>Zipped Project (8.78 MB):</ins> [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University.zip)
+
+
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Predict Prospective Student Graduate Admission into University.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University.ipynb)
 

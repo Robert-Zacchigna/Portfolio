@@ -4,6 +4,11 @@
 2015-2019 to see what trends can be seen about the worlds countries</p>
 
 
+## Download Project
+
+<ins>Zipped Project (11 MB):</ins> [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Analysis%20of%20World%20Happiness%20Reports%20(2015-2019).zip)
+
+
 ## View Notebooks (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Analysis of World Happiness Reports (2015-2019).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Analysis%20of%20World%20Happiness%20Reports%20%282015-2019%29/Analysis%20of%20World%20Happiness%20Reports%20%282015-2019%29.ipynb)
 

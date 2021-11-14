@@ -3,6 +3,11 @@
 <p align="center">Create optimal hotel recommendations for Expedia's users that are searching for a hotel to book, specifically predict which "hotel cluster" the user is likely to book, given his (or her) search details.</p>
 
 
+## Download Project
+
+<ins>Zipped Project (7.57 MB):</ins> [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Create%20Optimal%20Hotel%20Recommendations.zip)
+
+
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Create Optimal Hotel Recommendations.ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Create%20Optimal%20Hotel%20Recommendations/Create%20Optimal%20Hotel%20Recommendations.ipynb)
   > This notebook is quite large and might take a minute or two to fully load

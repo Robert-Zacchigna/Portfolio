@@ -4,6 +4,11 @@
 credit card and if it's possible to prevent it.</p>
 
 
+## Download Project
+
+<ins>Zipped Project (4.76 MB):</ins> [Download](https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn).zip)
+
+
 ## View Notebook (using [nbviewer](https://nbviewer.jupyter.org/faq#what-is-nbviewer)):
 * [Predicting Credit Card Customer Attrition (Churn).ipynb](https://nbviewer.jupyter.org/github/Robert-Zacchigna/Portfolio/blob/main/Predicting%20Credit%20Card%20Customer%20Attrition%20%28Churn%29/Predicting%20Credit%20Card%20Customer%20Attrition%20%28Churn%29.ipynb)
 
