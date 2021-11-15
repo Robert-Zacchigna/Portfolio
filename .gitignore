@@ -1,3 +1,4 @@
 # Ignore dataset zip files (too big for github)
 expedia-hotel-recommendations.zip
 Cell_Images.zip
+/Malaria Cell Image Classification/Split_Cell_Images/
