@@ -1,6 +1,6 @@
 # Project Portfolio [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Robert-Zacchigna/Portfolio/main "Launch Binder of GitHub Repo") 
 
-View website here: https://robert-zacchigna.github.io/Portfolio/
+View website here: https://robert-zacchigna.github.io/
 
 
 ### Jupyter Notebook [nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/index.html)
